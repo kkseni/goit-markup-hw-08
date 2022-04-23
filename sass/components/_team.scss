@@ -2,21 +2,30 @@
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--button-color);
+  @media screen and (min-width: 1200px){
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 .team__name {
   font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px;
   letter-spacing: 0.03em;
-  width: 300px;
+  padding-bottom: 30px;
   margin: auto;
   text-align: center;
   outline: 1px;
   padding-left: 0;
-  margin-bottom: 50px;
- 
-}
-
+  
+  @media screen and (min-width: 1200px){
+ margin-bottom: 50px;
+font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  width: 300px;}
+  }
 .team__list {
   list-style: none;
   margin-top: -30px;
